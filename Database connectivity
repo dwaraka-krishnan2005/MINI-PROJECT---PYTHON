@@ -1,0 +1,23 @@
+      DATABASE CONNECTIVITY
+
+How to connect database to run your application ?
+            
+DATABASE NAME :  ins_shop
+
+TABLES :        ( ID , Customer , Phone , Email , Instruments ,Qty, Discount , Order_Date, Delivery_Date, Payment ,Status ) 
+
+CREATING TABLE :
+                                    CREATE TABLE orders (
+    ID INT PRIMARY KEY,
+    Customer VARCHAR(255),
+    Phone VARCHAR(15),
+    Email VARCHAR(255),
+    Instruments VARCHAR(255),
+    Qty INT,
+    Discount DECIMAL(5, 2),
+    Order_Date DATE,
+    Delivery_Date DATE,
+    Payment VARCHAR(50),
+    Status VARCHAR(50)
+                                                    );
+
